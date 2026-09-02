@@ -1,0 +1,13 @@
+risk_weights:
+  data_access: 35
+  financial_impact: 25
+  cloud_hosting: 20
+  compliance_soc2: 20
+
+thresholds:
+  high_risk: 65
+  medium_risk: 35
+
+policies:
+  require_security_review_above: 60
+  disallow_unencrypted_pii: true
